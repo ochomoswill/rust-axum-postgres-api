@@ -1,5 +1,18 @@
-# rust axum posgres api
+# Rust Axum PostgreSQL API
 
+A modern, high-performance REST API built with Rust, using Axum web framework and PostgreSQL database.
+
+## Prerequisites
+
+1. Rust (1.75.0 or later)
+2. PostgreSQL (14.0 or later)
+
+## Getting Started
+clone the repository
+```bash
+git clone https://github.com/ochomoswill/rust-axum-postgres-api.git
+cd rust-axum-postgres-api
+```
 create a `.env` file on the root directory
 
 ```dotenv
