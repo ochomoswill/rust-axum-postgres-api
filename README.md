@@ -40,5 +40,14 @@ In case, you need to undo the migration
 sqlx migrate revert
 ```
 
+## API Endpoints
+
+### Notes
+- `GET /api/notes` - List all notes
+- `GET /api/notes/:id` - Get note by ID
+- `POST /api/notes/` - Create note
+- `PATCH /api/notes/:id` - Update note
+- `DELETE /api/notes/:id` - Delete note
+
 ## References
 [Rust CRUD API Example with Axum and PostgreSQL](https://codevoweb.com/rust-crud-api-example-with-axum-and-postgresql/)
